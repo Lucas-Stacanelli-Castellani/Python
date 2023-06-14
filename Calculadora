@@ -1,0 +1,75 @@
+#Fazendo calculadora
+
+print('Seja bem vindo a calculadora digital')
+
+print('\n')
+
+print('A-Adição')
+print('B-Subtração')
+print('C-Divisão')
+print('D-Multiplicação')
+
+print('\n') #pula linha
+
+ini = int(input('Quantas vezes deseja usar a calculadora: '))
+
+for ini in range (0,ini):
+
+    print('\n')
+
+    ope = input('Qual operação deseja fazer: ')
+
+
+    if ope == 'A':
+        print('\n')
+        n1 = input('Digite o primeiro numero: ')
+        n2 = input('Digite o segundo numero: ')
+        print('\n')
+
+        n1_float = float(n1)
+        n2_float = float(n2)
+
+        soma = (n1_float + n2_float)
+
+        print('A soma dos numeros será: ',soma)
+
+    elif ope =='B':
+        print('\n')
+        n1 = input('Digite o primeiro numero: ')
+        n2 = input('Digite o segundo numero: ')
+        print('\n')
+
+        n1_float = float(n1)
+        n2_float = float(n2)
+
+        sub = (n1_float - n2_float)
+
+        print('A subtração dos numeros será: ',sub)
+
+    elif ope =='C':
+        print('\n')
+        n1 = input('Digite o primeiro numero: ')
+        n2 = input('Digite o segundo numero: ')
+        print('\n')
+
+        n1_float = float(n1)
+        n2_float = float(n2)
+
+        divi = (n1_float / n2_float)
+
+        print('A divisão dos numeros será: ',divi)
+
+    elif ope == 'D':
+        print('\n')
+        n1 = input('Digite o primeiro numero: ')
+        n2 = input('Digite o segundo numero: ')
+        print('\n')
+
+        n1_float = float(n1)
+        n2_float = float(n2)
+
+        mult = (n1_float * n2_float)
+
+        print('A multiplicação dos numeros será: ',mult)
+
+print('Você terminou de usar a calculadora.')
